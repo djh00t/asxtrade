@@ -1,0 +1,24 @@
+#
+# this file contains a number of global variables used
+# by the docker container and its scripts. update any
+# of these to be appropriate for your environment.
+#
+
+# MODE options:
+#  - dry_run: (default) build images, but DO NOT push to dockerhub
+#  - go_time: build and push all images
+MODE="DRY_RUN"
+
+# Dockerhub image name
+IMAGE_NAME="djh00t/asxtrade"
+
+# Dockerhub image tag
+CONTAINER_NAME="asxtrade"
+
+# (optional) define log level to use
+# default: 0
+# options: 0 (informational), 1 (warning), 2 (non-fatal error), and 3 (fatal error)
+LOG_LEVEL=0
+
+# (optional) additional docker run options you may want
+DOCKER_OPTS=""
