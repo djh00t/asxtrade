@@ -149,7 +149,7 @@ INTERNAL_IPS = [
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = "/static/"
-STATIC_ROOT = "/home/acas/src/asxtrade/src/viewer/static"
+STATIC_ROOT = "/src/asxtrade/viewer/static"
 
 # caching use pypi diskcache
 CACHE_DIR = "/tmp/cache"
